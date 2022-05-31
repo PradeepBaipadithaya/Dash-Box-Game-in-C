@@ -2,13 +2,12 @@
 <CodeBlocks_project_file>
 	<FileVersion major="1" minor="6" />
 	<Project>
-		<Option title="CGV_mini_project" />
+		<Option title="cgMiniProject" />
 		<Option pch_mode="2" />
 		<Option compiler="gcc" />
 		<Build>
 			<Target title="Debug">
-				<Option output="bin/Debug/CGV_mini_project" prefix_auto="1" extension_auto="1" />
-				<Option working_dir="C:/Program Files (x86)/CodeBlocks/MinGW/bin" />
+				<Option output="bin/Debug/cgMiniProject" prefix_auto="1" extension_auto="1" />
 				<Option object_output="obj/Debug/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
@@ -17,10 +16,9 @@
 				</Compiler>
 			</Target>
 			<Target title="Release">
-				<Option output="bin/Release/CGV_mini_project" prefix_auto="1" extension_auto="1" />
-				<Option working_dir="C:/Program Files (x86)/CodeBlocks/MinGW/bin" />
+				<Option output="bin/Release/cgMiniProject" prefix_auto="1" extension_auto="1" />
 				<Option object_output="obj/Release/" />
-				<Option type="0" />
+				<Option type="1" />
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-O2" />
@@ -32,21 +30,11 @@
 		</Build>
 		<Compiler>
 			<Add option="-Wall" />
-			<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/include" />
 		</Compiler>
-		<Linker>
-			<Add library="glut32" />
-			<Add library="opengl32" />
-			<Add library="glu32" />
-			<Add library="winmm" />
-			<Add library="gdi32" />
-			<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/lib" />
-		</Linker>
-		<Unit filename="main.cpp" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Extensions>
-			<code_completion />
-			<envvars />
-			<debugger />
 			<lib_finder disable_auto="1" />
 		</Extensions>
 	</Project>
