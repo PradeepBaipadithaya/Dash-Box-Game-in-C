@@ -1,6 +1,6 @@
 # depslib dependency file v1.0
-1653802362 source:c:\users\user\desktop\cg project\cgminiproject\main.c
+1654100017 source:c:\users\user\desktop\cg project\cgminiproject\main.c
 	<GL/glut.h>
-	<GL/gl.h>
+	<stdio.h>
 	<windows.h>
 
